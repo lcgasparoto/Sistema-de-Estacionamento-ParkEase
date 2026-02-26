@@ -215,7 +215,7 @@ pip install tkcalendar matplotlib pandas
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Perfil-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lucas-c-gasparoto-9b5a12381/)
 [![Email](https://img.shields.io/badge/Email-santoxlucas02%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:santoxlucas02@gmail.com)
 
-**Para receber o código completo do programa, entre em contato pelo Instagram ou Email!**
+**Para receber o código completo do programa, entre nos arquivos desse repositório!**
 
 </div>
 
