@@ -1,11 +1,14 @@
 # 🅿️ **ParkEase - Sistema de Estacionamento Inteligente**
 
+![ParkEase Banner](https://img.shields.io/badge/ParkEase-v1.0.0-blue)
+![Python Version](https://img.shields.io/badge/Python-3.8%2B-green)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-orange)
 
 <div align="center">
+  <img src="https://via.placeholder.com/800x400/2c3e50/ffffff?text=ParkEase+-+Estacionamento+Inteligente" alt="ParkEase Banner">
   
   ### 🚗 **Sistema Completo de Gerenciamento de Estacionamento**
-  
-  [🇧🇷 Português](#português) | [🇺🇸 English](#english)
 </div>
 
 ---
@@ -18,25 +21,11 @@
 
 [![Instagram](https://img.shields.io/badge/Instagram-%40lcgasparoto-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/lcgasparoto)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Perfil-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lucas-c-gasparoto-9b5a12381/)
-[![GitHub](https://img.shields.io/badge/GitHub-lucasclanes-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/lucasclanes)
+[![Email](https://img.shields.io/badge/Email-santoxlucas02%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:santoxlucas02@gmail.com)
 
 **Este projeto foi totalmente desenvolvido por mim, com dedicação e paixão por tecnologia!** 🚀
 
 </div>
-
----
-
-## 📑 **Índice**
-- [Sobre o Projeto](#-sobre-o-projeto)
-- [Funcionalidades](#-funcionalidades)
-- [Demonstração](#-demonstração)
-- [Tecnologias Utilizadas](#-tecnologias-utilizadas)
-- [Como Instalar](#-como-instalar)
-- [Como Usar](#-como-usar)
-- [Estrutura do Projeto](#-estrutura-do-projeto)
-- [Contribuição](#-contribuição)
-- [Licença](#-licença)
-- [Contato](#-contato)
 
 ---
 
@@ -71,7 +60,6 @@ Facilitar o dia a dia de administradores de estacionamentos, proporcionando uma 
 | Funcionalidade | Descrição |
 |----------------|-----------|
 | ✅ **Painel de Vagas** | Visualização em tempo real da ocupação |
-| ✅ **Gráficos** | Representação visual dos dados |
 | ✅ **Relatório Diário** | Resumo completo das operações do dia |
 | ✅ **Histórico** | Registro de todas as saídas |
 
@@ -92,100 +80,65 @@ Facilitar o dia a dia de administradores de estacionamentos, proporcionando uma 
 
 ---
 
-## 🎥 **Demonstração**
+## 📥 **GUIA COMPLETO DE INSTALAÇÃO**
 
-<div align="center">
-  
-### 📸 **Tela Principal**
-```
-┌─────────────────────────────────────────────────────────────┐
-│  🚗 ParkEase - Estacionamento Inteligente      🟢 Sistema Online│
-├─────────────────────────────────────────────────────────────┤
-│  ┌─────────────┐  ┌──────────────────────┐  ┌─────────────┐│
-│  │ 🅿️ Vagas    │  │ 📋 Veículos         │  │ ➕ Nova     ││
-│  │ 15/50       │  │                     │  │   Entrada   ││
-│  │ ████████    │  │ Vaga | Proprietário │  ├─────────────┤│
-│  ├─────────────┤  ├──────────────────────┤  │ 🔍 Busca   ││
-│  │ 📊 Estatís- │  │ 1    | João Silva   │  ├─────────────┤│
-│  │   ticas     │  │ 2    | Maria Santos │  │ ⚡ Ações   ││
-│  │ R$ 450,00   │  │ 3    | Pedro Souza  │  │   Rápidas  ││
-│  └─────────────┘  └──────────────────────┘  └─────────────┘│
-└─────────────────────────────────────────────────────────────┘
-```
-
-### 🎬 **Fluxo de Operações**
-1. **Registro de Entrada** → Preencha os dados do veículo
-2. **Acompanhamento** → Visualize na tabela principal
-3. **Cálculo de Pagamento** → Sistema calcula automaticamente
-4. **Registro de Saída** → Finalize e libere a vaga
-
-</div>
+### 🔧 **PASSO A PASSO PARA INSTALAR E EXECUTAR**
 
 ---
 
-## 🛠 **Tecnologias Utilizadas**
+### **Passo 1: Instalar Python**
+1. Acesse https://www.python.org/downloads/
+2. Baixe Python 3.8 ou superior
+3. Durante a instalação, **MARQUE a opção "Add Python to PATH"**
+4. Clique em "Install Now"
 
-<div align="center">
+### **Passo 2: Baixar o Código**
+O código completo do programa está disponível em um arquivo separado. Para obtê-lo:
 
-| Tecnologia | Versão | Finalidade |
-|------------|--------|------------|
-| ![Python](https://img.shields.io/badge/Python-3.8%2B-blue) | ≥ 3.8 | Linguagem principal |
-| ![Tkinter](https://img.shields.io/badge/Tkinter-8.6-green) | 8.6 | Interface gráfica |
-| ![Matplotlib](https://img.shields.io/badge/Matplotlib-3.5%2B-orange) | ≥ 3.5 | Geração de gráficos |
-| ![Pandas](https://img.shields.io/badge/Pandas-1.3%2B-yellow) | ≥ 1.3 | Manipulação de dados |
-| ![TkCalendar](https://img.shields.io/badge/TkCalendar-1.6%2B-red) | ≥ 1.6 | Seleção de datas |
+**Opção 1:** Entre em contato com o desenvolvedor  
+**Opção 2:** Acesse o perfil do Instagram @lcgasparoto e solicite o código
 
-</div>
+### **Passo 3: Instalar Dependências**
+Abra o **Prompt de Comando (CMD)** ou **Terminal** e digite:
+```bash
+pip install tkcalendar matplotlib pandas
+```
+
+### **Passo 4: Criar o Arquivo do Programa**
+1. Após receber o código, abra o **Bloco de Notas**
+2. Copie todo o código fornecido
+3. Cole no bloco de notas
+4. Clique em **Arquivo > Salvar como**
+5. Escolha uma pasta de sua preferência
+6. Em "Nome do arquivo", digite: **parkease.py**
+7. Em "Tipo", selecione **"Todos os arquivos (*.*)"**
+8. Clique em Salvar
 
 ---
 
-## 📥 **Como Instalar**
+## 🚀 **COMO EXECUTAR**
 
-### Pré-requisitos
-- Python 3.8 ou superior instalado
-- pip (gerenciador de pacotes Python)
+### **Método 1: Pelo CMD/Terminal**
+1. Abra o **Prompt de Comando** (Windows) ou **Terminal** (Mac/Linux)
+2. Navegue até a pasta onde salvou o arquivo:
+   ```bash
+   cd caminho/para/pasta/do/arquivo
+   ```
+3. Execute o programa:
+   ```bash
+   python parkease.py
+   ```
 
-### Passo a Passo
-
-1. **Clone o repositório**
-```bash
-git clone https://github.com/lucasclanes/parkease.git
-cd parkease
-```
-
-2. **Crie um ambiente virtual (opcional, mas recomendado)**
-```bash
-# Windows
-python -m venv venv
-venv\Scripts\activate
-
-# Linux/Mac
-python3 -m venv venv
-source venv/bin/activate
-```
-
-3. **Instale as dependências**
-```bash
-pip install -r requirements.txt
-```
-
-4. **Execute o sistema**
-```bash
-python parkease.py
-```
-
-### 📦 **Arquivo requirements.txt**
-```txt
-tkcalendar==1.6.1
-matplotlib==3.5.0
-pandas==1.3.0
-```
+### **Método 2: Duplo Clique (Windows)**
+1. Localize o arquivo `parkease.py`
+2. Dê duplo clique no arquivo
+3. Ele será executado automaticamente
 
 ---
 
-## 📖 **Como Usar**
+## 🎯 **COMO USAR**
 
-### 🚀 **Primeiros Passos**
+### **Primeiros Passos**
 
 1. **Ao iniciar o sistema**, você verá a interface principal com 3 áreas:
    - **Painel Esquerdo**: Estatísticas e vagas disponíveis
@@ -212,75 +165,63 @@ pandas==1.3.0
    - Após o pagamento, confirme a saída
    - A vaga será liberada automaticamente
 
-### ⌨️ **Atalhos e Dicas**
+### ⌨️ **Dicas Importantes**
 - A tabela atualiza automaticamente a cada minuto
 - Use a busca para localizar veículos rapidamente
 - O sistema salva os dados automaticamente ao fechar
+- Você pode ajustar a tarifa por hora a qualquer momento
 
 ---
 
-## 📁 **Estrutura do Projeto**
+## 📋 **REQUISITOS DO SISTEMA**
 
-```
-parkease/
-│
-├── 📄 parkease.py              # Arquivo principal do sistema
-├── 📄 requirements.txt          # Dependências do projeto
-├── 📄 README.md                 # Documentação em português
-├── 📄 README-EN.md              # Documentação em inglês
-├── 📄 LICENSE                   # Licença do projeto
-│
-├── 📁 assets/                   # Recursos visuais
-│   ├── 🖼️ icon.ico              # Ícone do aplicativo
-│   ├── 🖼️ banner.png            # Banner para o README
-│   └── 🖼️ screenshots/          # Capturas de tela
-│       ├── tela-principal.png
-│       ├── relatorio.png
-│       └── pagamento.png
-│
-├── 📁 data/                     # Dados do sistema
-│   └── 📄 parkease_dados.json   # Banco de dados JSON
-│
-└── 📁 docs/                     # Documentação adicional
-    ├── 📄 manual-usuario.pdf
-    └── 📄 especificacoes.md
-```
+- **Sistema Operacional:** Windows, Mac OS ou Linux
+- **Python:** Versão 3.8 ou superior
+- **Memória RAM:** Mínimo 2GB
+- **Espaço em disco:** Mínimo 100MB
+- **Bibliotecas Python:** tkcalendar, matplotlib, pandas
 
 ---
 
-## 🤝 **Contribuição**
+## ❓ **PROBLEMAS COMUNS E SOLUÇÕES**
 
-Contribuições são sempre bem-vindas! Veja como você pode ajudar:
+### **Erro: "python não é reconhecido como comando interno"**
+- **Solução:** Reinstale o Python e marque a opção "Add Python to PATH"
 
-### 📝 **Como contribuir**
+### **Erro: "ModuleNotFoundError: No module named 'tkcalendar'"**
+- **Solução:** Instale a biblioteca: `pip install tkcalendar`
 
-1. **Fork** o projeto
-2. **Crie uma branch** para sua feature (`git checkout -b feature/AmazingFeature`)
-3. **Commit** suas mudanças (`git commit -m 'Add some AmazingFeature'`)
-4. **Push** para a branch (`git push origin feature/AmazingFeature`)
-5. **Abra um Pull Request**
+### **Erro: "ModuleNotFoundError: No module named 'matplotlib'"**
+- **Solução:** Instale a biblioteca: `pip install matplotlib`
 
-### ✅ **Diretrizes**
-- Mantenha o código limpo e comentado
-- Atualize a documentação quando necessário
-- Teste suas alterações antes de enviar
-- Siga o estilo de código existente
+### **Erro: "ModuleNotFoundError: No module named 'pandas'"**
+- **Solução:** Instale a biblioteca: `pip install pandas`
 
-### 🎯 **Sugestões de Melhorias**
-- [ ] Integração com banco de dados SQLite
-- [ ] Sistema de cadastro de clientes frequentes
-- [ ] Emissão de comprovantes em PDF
-- [ ] Módulo de reservas online
-- [ ] Sistema de fidelidade com descontos
-- [ ] Notificações por WhatsApp/SMS
-- [ ] Painel administrativo com usuários
-- [ ] Backup automático em nuvem
+### **Erro: "Arquivo não encontrado" ao executar**
+- **Solução:** Certifique-se de estar na pasta correta no terminal
+
+### **Programa abre e fecha rapidamente**
+- **Solução:** Execute pelo terminal para ver a mensagem de erro
 
 ---
 
-## 📄 **Licença**
+## 📞 **CONTATO**
 
-Distribuído sob a licença MIT. Veja `LICENSE` para mais informações.
+<div align="center">
+
+### **Lucas Clanes Gasparoto**
+
+[![Instagram](https://img.shields.io/badge/Instagram-%40lcgasparoto-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/lcgasparoto)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Perfil-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lucas-c-gasparoto-9b5a12381/)
+[![Email](https://img.shields.io/badge/Email-santoxlucas02%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:santoxlucas02@gmail.com)
+
+**Para receber o código completo do programa, entre em contato pelo Instagram ou Email!**
+
+</div>
+
+---
+
+## 📝 **LICENÇA**
 
 ```
 MIT License
@@ -308,53 +249,12 @@ SOFTWARE.
 
 ---
 
-## 📞 **Contato**
+## 📊 **ESTATÍSTICAS DO PROJETO**
 
 <div align="center">
-
-### **Lucas Clanes Gasparoto**
-
-[![Instagram](https://img.shields.io/badge/Instagram-%40lcgasparoto-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/lcgasparoto)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Perfil-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lucas-c-gasparoto-9b5a12381/)
-[![GitHub](https://img.shields.io/badge/GitHub-lucasclanes-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/lucasclanes)
-[![Email](https://img.shields.io/badge/Email-Contato-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:lucas.gasparoto@email.com)
-
----
-
-### ⭐ **Gostou do projeto?**
-Deixe uma estrela no GitHub e compartilhe com outros desenvolvedores!
-
-### 🐛 **Encontrou um bug?**
-Abra uma issue [aqui](https://github.com/lucasclanes/parkease/issues)
-
-### 💡 **Tem uma sugestão?**
-Fique à vontade para contribuir ou entrar em contato!
-
----
-
-## 🏆 **Reconhecimentos**
-
-- **Desenvolvido 100% por:** Lucas Clanes Gasparoto
-- **Instagram:** [@lcgasparoto](https://instagram.com/lcgasparoto)
-- **LinkedIn:** [Lucas C Gasparoto](https://www.linkedin.com/in/lucas-c-gasparoto-9b5a12381/)
-- **GitHub:** [@lucasclanes](https://github.com/lucasclanes)
-
-</div>
-
----
-
-## 📊 **Estatísticas do Projeto**
-
-<div align="center">
-
-![GitHub stars](https://img.shields.io/github/stars/lucasclanes/parkease?style=social)
-![GitHub forks](https://img.shields.io/github/forks/lucasclanes/parkease?style=social)
-![GitHub watchers](https://img.shields.io/github/watchers/lucasclanes/parkease?style=social)
-![GitHub followers](https://img.shields.io/github/followers/lucasclanes?style=social)
 
 **Última atualização:** Fevereiro/2025  
 **Versão atual:** 1.0.0  
-**Linhas de código:** ~1.500  
 **Funcionalidades:** 25+  
 **Desenvolvedor:** Lucas Clanes Gasparoto
 
@@ -362,7 +262,7 @@ Fique à vontade para contribuir ou entrar em contato!
 
 ---
 
-## 🎉 **Agradecimentos**
+## 🎉 **AGRADECIMENTOS**
 
 - A todos que testaram e forneceram feedback
 - Comunidade Python pelo suporte
@@ -376,37 +276,10 @@ Fique à vontade para contribuir ou entrar em contato!
 
 [![Instagram](https://img.shields.io/badge/Follow-%40lcgasparoto-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://instagram.com/lcgasparoto)
 [![LinkedIn](https://img.shields.io/badge/Connect-LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lucas-c-gasparoto-9b5a12381/)
-[![GitHub](https://img.shields.io/badge/Follow-GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/lucasclanes)
+[![Email](https://img.shields.io/badge/Email-Contato-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:santoxlucas02@gmail.com)
 
 **ParkEase - Simplificando o gerenciamento do seu estacionamento** 🚗
 
 [⬆ Voltar ao topo](#-parkease---sistema-de-estacionamento-inteligente)
-
-</div>
-
----
-
-## 📝 **Notas da Versão**
-
-### Versão 1.0.0 (Fevereiro/2025)
-- 🎉 Lançamento inicial do ParkEase
-- ✅ Interface gráfica completa
-- ✅ Sistema de registro de entrada/saída
-- ✅ Cálculo automático de valores
-- ✅ Relatórios e estatísticas
-- ✅ Persistência de dados em JSON
-- ✅ Design moderno e intuitivo
-
-### Próximas Atualizações
-- 🔄 Integração com banco de dados
-- 🔄 Sistema de clientes frequentes
-- 🔄 Emissão de comprovantes PDF
-- 🔄 Reservas online
-
----
-
-<div align="center">
-  
-**© 2025 Lucas Clanes Gasparoto - Todos os direitos reservados**
 
 </div>
