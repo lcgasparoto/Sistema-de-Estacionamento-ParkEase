@@ -1,12 +1,7 @@
 # 🅿️ **ParkEase - Sistema de Estacionamento Inteligente**
 
-![ParkEase Banner](https://img.shields.io/badge/ParkEase-v1.0.0-blue)
-![Python Version](https://img.shields.io/badge/Python-3.8%2B-green)
-![License](https://img.shields.io/badge/License-MIT-yellow)
-![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-orange)
 
 <div align="center">
-  <img src="https://via.placeholder.com/800x400/2c3e50/ffffff?text=ParkEase+-+Estacionamento+Inteligente" alt="ParkEase Banner">
   
   ### 🚗 **Sistema Completo de Gerenciamento de Estacionamento**
   
